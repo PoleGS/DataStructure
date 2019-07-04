@@ -1,0 +1,28 @@
+{
+  "name": "datastructure",
+  "version": "1.0.0",
+  "description": "数据结构与算法相关",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PoleGS/DataStructure.git"
+  },
+  "keywords": [
+    "dataStructure",
+    "Alo"
+  ],
+  "author": "Shaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PoleGS/DataStructure/issues"
+  },
+  "homepage": "https://github.com/PoleGS/DataStructure#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

@@ -82,7 +82,4 @@ let Stack = (function () {
     return Stack;
 })();
 
-const stack = new Stack();
-stack.push(1);
-stack.push(3);
-stack.print(); // 1, 3
+export default Stack;

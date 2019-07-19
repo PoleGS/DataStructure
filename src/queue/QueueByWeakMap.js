@@ -6,7 +6,7 @@ let Queue = (function () {
             items.set(this, []);
         }
 
-        euqueue = (element) => {
+        enqueue = (element) => {
             let cur = items.get(this);
             cur.push(element);
         };

@@ -66,7 +66,7 @@ function LinkedList() {
 
     //获取当前元素在链表中的位置
     this.indexOf = (element) => {
-        let current, index = 0;
+        let current = head, index = 0;
         while (current) {
             if (element === current.element) {
                 return index

@@ -33,7 +33,7 @@ function towerOfHanoi(plates, source, helper, dest, sourceName, helperName, dest
         move[helperName] = helper.toString();
         move[destName] = dest.toString();
         moves.push(move);
-        //将在辅助塔上的n-1个圆盘放回源塔
+        //将在辅助塔上的n-1个圆盘放到目标塔
         towerOfHanoi(plates - 1, helper, source, dest, helperName, sourceName, destName, moves);
     }
     return moves;
